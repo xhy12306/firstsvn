@@ -11,6 +11,7 @@ import java.io.IOException;
 public class Servlet1 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        int x=99;
         System.out.println("你好！！！");
         System.out.println("提交到git中");
         resp.getWriter().write("你好！！！");
